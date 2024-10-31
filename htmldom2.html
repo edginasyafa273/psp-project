@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="gambar" onmouseover="ubahgambar()" onmouseout="balikgambar()" width="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3zK6IwmN9qpNgWTKxZ7OMxOe5GWuHgODVQ&s">
+    <script>
+        function ubahgambar(){
+            let gambar = document.getElementById("gambar");
+            gambar.src="https://compass-media.vogue.it/photos/64875576e03ab1e612092a4a/16:9/w_2560%2Cc_limit/BAR-00238.jpg"
+        }
+        function balikgambar(){
+            let gambar = document.getElementById("gambar");
+            gambar.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3zK6IwmN9qpNgWTKxZ7OMxOe5GWuHgODVQ&s"
+        }
+    </script>
+</body>
+</html>
